@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
       emailError.style.display = "none";
       FrameEmailError.classList.remove('input-tk');
       iconTK.style.color = '#d9d9d9';
+    }else{
+      emailError.style.display = "block";
     }
   });
 });
